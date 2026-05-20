@@ -5,7 +5,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -20,7 +22,10 @@ img {
   height: auto;
 }
 
-h1, h2, h3, button {
+h1,
+h2,
+h3,
+button {
   font-family: "Anton", sans-serif;
 }
 
@@ -28,7 +33,7 @@ h1 {
   color: #fff;
   font-size: 4.209rem;
   text-align: center;
-  text-shadow: 2px 3px 4px rgba(0,0,0,0.6);
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
 }
 
 h2 {
@@ -43,3 +48,23 @@ h3 {
   margin: 0;
 }
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 120px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
